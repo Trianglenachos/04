@@ -11,10 +11,9 @@
 <script src="https://jeromeetienne.github.io/AR.js/aframe/build/aframe-ar.js"></script>
 <body style='margin : 0px; overflow: hidden;'>
   <a-scene embedded arjs>
-
-    <a-marker-camera type='pattern' url='MARKERS/04.patt'>
+    <a-marker type='pattern' url='MARKERS/04.patt'>
      <a-entity gltf-model-next="src: url(assets/scenePilar.glb);"></a-entity>
-    </a-marker-camera>
-
+    </a-marker>
+    <a-entity camera></a-entity>
   </a-scene>
 </body>
